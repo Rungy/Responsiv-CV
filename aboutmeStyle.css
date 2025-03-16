@@ -1,0 +1,102 @@
+body{
+    background-color: #AC5354;
+}
+#NavigationUI{
+display: flex;
+flex-direction: row;
+justify-content: center;
+}
+.NavItems{
+    background-color: white;
+    width: 6rem;
+    height: 6rem;
+    border-radius: 100%;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+    margin-bottom: 1.5rem;
+    text-align: center;
+    color: black;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+#bild{
+    width: 12rem;
+    height: 12rem;
+    border-radius: 100%;
+    display: block;
+    margin: auto;
+}
+#textcontainer{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+.textitem{
+color: white;
+width: 25rem;
+display: flex;
+flex-direction: column;
+align-items: center;
+text-align: center;
+}
+.Line{
+    background-color: white;
+    width: 25rem;
+    height: 0.5rem;
+    opacity: 50%;
+}
+@media only screen and (max-width: 600px){
+
+    #textcontainer{
+        display: flex;
+        flex-direction: column;
+    }
+    #bild{
+        width: 8rem;
+        height: 5rem;
+        border-radius: 100%;
+        display: block;
+    }
+    .NavItems{
+        background-color: white;
+        width: 3rem;
+        height: 3rem;
+        border-radius: 100%;
+        margin-left: 1.5rem;
+        margin-right: 1.5rem;
+        margin-bottom: 1rem;
+        text-align: center;
+        color: black;
+        justify-content: center;
+        display: flex;
+        align-items: center;
+    }
+    .Line{
+        background-color: white;
+        width: 22rem;
+        height: 0.25rem;
+        opacity: 50%;
+    }
+    .textitem{
+        color: white;
+        width: 22rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin-bottom: 0;
+        }
+    #NavigationUI{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-top: 0;
+        }
+    .responsivhelp{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+    }
+}

@@ -1,0 +1,106 @@
+body{
+    background-color: #AC5354;
+}
+#NavigationUI{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+justify-content: center;
+}
+.placeholder{
+    display: flex;
+    justify-content: center;
+}
+.NavItems{
+    background-color: white;
+    width: 6rem;
+    height: 6rem;
+    border-radius: 100%;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+    margin-bottom: 1.5rem;
+    text-align: center;
+    color: black;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+img{
+    height: 10rem;
+    width: 25rem;
+    border-radius: 100%;
+}
+h1{
+    color: white;
+    text-align: center;
+}
+#BigLine{
+    width: 25rem;
+    height: 0.25rem;
+    background-color: white;
+    margin: auto;
+}
+#textcontainer{
+    display: flex;
+    justify-content: space-between;
+}
+.textitem{
+color: white;
+width: 25rem;
+display: flex;
+flex-direction: column;
+align-items: center;
+text-align: center;
+}
+.Line{
+    background-color: white;
+    width: 25rem;
+    height: 0.25rem;
+}
+@media only screen and (max-width: 600px){
+    .NavItems{
+        background-color: white;
+        width: 3rem;
+        height: 3rem;
+        border-radius: 100%;
+        margin-left: 1.5rem;
+        margin-right: 1.5rem;
+        margin-bottom: 1rem;
+        text-align: center;
+        color: black;
+        justify-content: center;
+        display: flex;
+        align-items: center;
+    }
+    img{
+        height: 5rem;
+        width: 3rem;
+        border-radius: 100%;
+    }
+    #textcontainer{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+    }
+    #BigLine{
+        width: 22rem;
+        height: 0.25rem;
+        background-color: white;
+        margin: auto;
+    }
+    .Line{
+        background-color: white;
+        width: 22rem;
+        height: 0.25rem;
+    }
+    .textitem{
+        color: white;
+        width: 22rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        }
+    
+}
